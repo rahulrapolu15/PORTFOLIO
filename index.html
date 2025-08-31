@@ -6,16 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rapolu Rahul | Shinobi Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
-
   <!-- Rasengan Cursor -->
   <div id="cursor"></div>
 
-  <!-- Sharingan Preloader -->
+  <!-- Preloader -->
   <div id="preloader">
     <div class="sharingan"></div>
   </div>
@@ -39,58 +37,40 @@
   </header>
 
   <!-- Hero Section -->
-
-  <!-- Hero Section -->
   <section id="hero">
-    <!-- Image on the left -->
     <div class="side-image">
       <img src="assets/naruto1.png" alt="Naruto">
     </div>
-
-    <!-- Text content on the right -->
     <div class="hero-content">
       <h1>👋 Yo! I’m Rapolu Rahul</h1>
-      <p class="typing">• Full-Stack Developer • Chakra Level: High ⚡ • Code. Solve. Evolve. 🚀</p>
-
+      <p class="typing"></p>
       <div class="btn-row">
         <button class="btn" id="go-projects">Summon My Projects</button>
         <a class="btn" href="assets/resume.pdf" download>📜 Download Resume</a>
       </div>
-
-
     </div>
   </section>
 
-
-
-
-
+  <!-- About Section -->
   <section id="about" class="hidden">
-
     <div class="about-card">
       <h2>About Me</h2>
       <p>
         I am a passionate software developer and problem solver with strong foundations in C++, Java, Data Structures,
         and Algorithms. I specialize in designing efficient, scalable solutions and have hands-on experience in cloud
-        computing and machine learning.
-
-        Beyond coding, I enjoy building practical tools, exploring system design, and continuously learning emerging
-        technologies. I thrive in challenging environments, where I can combine logic, creativity, and innovation to
-        deliver meaningful results. Currently polishing my jutsus in
-        Full stack Development.
+        computing and machine learning. Beyond coding, I enjoy building practical tools, exploring system design, and
+        continuously learning emerging technologies. I thrive in challenging environments, where I can combine logic,
+        creativity, and innovation to deliver meaningful results. Currently polishing my jutsus in Full stack
+        Development.
       </p>
     </div>
-
     <div class="side-image">
       <img src="assets/kakashi.png" alt="Kakashi">
     </div>
   </section>
 
-
-
-
-  <!-- Experience -->
-  <section id="experience">
+  <!-- Experience Section -->
+  <section id="experience" class="hidden">
     <div class="side-image">
       <img src="assets/sasuke.png" alt="Sasuke">
     </div>
@@ -106,17 +86,17 @@
             with the AWS Well-Architected Framework.
           </p>
           <div class="tags">
-            <span>AWS </span><span>Architecture </span><span>Cloud </span>
+            <span>AWS</span><span>Architecture</span><span>Cloud</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects">
+  <!-- Projects Section -->
+  <section id="projects" class="hidden">
     <div class="content">
-      <h2>My Jutsus (PROJECTS)</h2>
+      <h2>My Jutsus (Projects)</h2>
       <div class="project-grid">
         <div class="project-card">
           <h3>Trustworthy Online Reviews — RNN + PSO</h3>
@@ -139,102 +119,83 @@
     </div>
   </section>
 
-  <!-- Skills -->
-  <!-- Skills / Chakra Levels -->
-  <section id="skills">
+  <!-- Skills Section -->
+  <section id="skills" class="hidden">
     <div class="side-image">
       <img src="assets/naruto2.png" alt="Naruto">
     </div>
-
     <div class="content">
-      <h2>Chakra Levels (SKILLS)</h2>
-
+      <h2>Chakra Levels (Skills)</h2>
       <div class="skills-grid">
-        <!-- Languages Card -->
         <div class="skills-card">
           <h3>Languages</h3>
           <div class="pill-grid">
-            <span class="pill">C++</span>
-            <span class="pill">Java</span>
-            <span class="pill">SQL</span>
-            <span class="pill">HTML</span>
-            <span class="pill">CSS</span>
-            <span class="pill">JSSL</span>
+            <span class="pill">C++</span><span class="pill">Java</span><span class="pill">SQL</span>
+            <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span>
           </div>
         </div>
-
-        <!-- Core & Tools Card -->
         <div class="skills-card">
           <h3>Core Subjects & Tools</h3>
           <div class="pill-grid">
-            <span class="pill">Data Structures</span>
-            <span class="pill">Algorithms</span>
-            <span class="pill">Object Oriented Programming</span>
-            <span class="pill">DataBase Management System</span>
-            <span class="pill">Operating Systems</span>
-            <span class="pill">VS Code</span>
-            <span class="pill">MySQL</span>
-            <span class="pill">Windows</span>
-
+            <span class="pill">Data Structures</span><span class="pill">Algorithms</span><span class="pill">Object
+              Oriented Programming</span>
+            <span class="pill">DataBase Management System</span><span class="pill">Operating Systems</span><span
+              class="pill">VS Code</span>
+            <span class="pill">MySQL</span><span class="pill">Windows</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Education Section -->
   <section id="education" class="hidden">
     <div class="content">
       <h2>Education</h2>
       <div class="edu-grid">
         <div class="edu-card">
           <h3>SNIST</h3>
-          <p class="meta">B.Tech CSE </p>
-          <p class="meta">• CGPA: 8.58</p>
-          <p class="meta">• 2021–2025</p>
+          <p class="meta">B.Tech CSE</p>
+          <p class="meta">CGPA: 8.58</p>
+          <p class="meta">2021–2025</p>
         </div>
         <div class="edu-card">
           <h3>Narayana Jr. College</h3>
-          <p class="meta">MPC </p>
-          <p class="meta">• 974/1000 </p>
-          <p class="meta">• 2019–2021</p>
+          <p class="meta">MPC</p>
+          <p class="meta">974/1000</p>
+          <p class="meta">2019–2021</p>
         </div>
         <div class="edu-card">
           <h3>SR Digi School</h3>
-          <p class="meta">High School </p>
-          <p class="meta">• CGPA: 10.0 </p>
-          <p class="meta">• 2019</p>
+          <p class="meta">High School</p>
+          <p class="meta">CGPA: 10.0</p>
+          <p class="meta">2019</p>
         </div>
       </div>
     </div>
   </section>
 
-
-
-  <section id="achievements">
+  <!-- Achievements Section -->
+  <section id="achievements" class="hidden">
     <div class="side-image">
-      <img src="assets/hinata.png" alt="Minato">
+      <img src="assets/hinata.png" alt="Hinata">
     </div>
     <div class="content">
       <h2>Achievements</h2>
-
       <div class="achievement-card">
         <p>Solved 250+ problems across LeetCode, CodeChef, HackerRank & Codeforces.</p>
       </div>
-
       <div class="achievement-card">
-        <p>Built a console-based browser prototype in a hackathon with multi-tab/session features.</p>
+        <p>Participated in a console-based hackathon.</p>
       </div>
-
       <div class="achievement-card">
-        <p>Completed multiple online certifications on cloud computing and machine learning.</p>
+        <p>Attended multiple workshops.</p>
       </div>
     </div>
   </section>
 
-
-  <!-- Certifications -->
-  <!-- Certifications -->
-  <section id="certifications">
+  <!-- Certifications Section -->
+  <section id="certifications" class="hidden">
     <div class="content">
       <h2>Certifications</h2>
       <div class="cert-card">
@@ -244,20 +205,16 @@
         <h3>Udemy — Java 17 Masterclass</h3>
       </div>
     </div>
-
     <div class="side-image">
       <img src="assets/minato.png" alt="Minato">
     </div>
   </section>
 
-
-  <!-- Contact -->
-
-  <section id="contact">
+  <!-- Contact Section -->
+  <section id="contact" class="hidden">
     <div class="side-image">
       <img src="assets/rocklee.png" alt="Rock Lee">
     </div>
-
     <div class="content">
       <h2>Summon Me 🦅</h2>
       <div class="contact-cards">
@@ -265,35 +222,22 @@
         <a class="contact-card" href="mailto:rahulrapolu2004@gmail.com">✉️ rahulrapolu2004@gmail.com</a>
         <span class="contact-card">📍 Hyderabad, Telangana</span>
       </div>
-      <form id="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="text" name="title" placeholder="Subject" required>
-        <textarea name="message" placeholder="Your Message"></textarea>
-        <button type="submit">Send with Ninja Speed</button>
-      </form>
       <div class="social-links">
-        <a href="https://linkedin.com/in/rahul-rapolu-86350926a/" target="_blank" class="social linkedin">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/rahulrapolu15" target="_blank" class="social github">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://leetcode.com/u/Rahul_Rapolu/" target="_blank" class="social leetcode">
-          <img src="assets/leetcode.png" alt="LeetCode" class="leetcode-icon">
-        </a>
+        <a href="https://linkedin.com/in/rahul-rapolu-86350926a/" target="_blank" class="social linkedin"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/rahulrapolu15" target="_blank" class="social github"><i
+            class="fab fa-github"></i></a>
+        <a href="https://leetcode.com/u/Rahul_Rapolu/" target="_blank" class="social leetcode"><img
+            src="assets/leetcode.png" alt="LeetCode" class="leetcode-icon"></a>
       </div>
-
     </div>
   </section>
-
 
   <!-- Footer -->
   <footer>
     <p>🍥 Built with chakra & passion | Rapolu Rahul © 2025</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script src="script.js"></script>
 </body>
 
