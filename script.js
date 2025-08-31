@@ -709,3 +709,5 @@ footer { padding:1rem; text-align:center; background:#1e293b; margin-top:2rem; c
   max-width: 120px;   /* smaller size, was 180px */
   transition: transform 0.4s ease, filter 0.4s ease;
 }
+
+document.querySelectorAll('.hidden').forEach(el => el.classList.add('show'));
