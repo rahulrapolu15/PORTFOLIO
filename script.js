@@ -44,6 +44,7 @@ function animateCursor() {
 animateCursor();
 
 // EmailJS Contact Form
+emailjs.init("6jNoXG_gknswadOvJ");
 const form = document.getElementById("contact-form");
 if (form) {
   form.addEventListener("submit", function (e) {
@@ -63,3 +64,4 @@ document.querySelectorAll('#experience .card').forEach(card => {
     card.classList.add('active');
   });
 });
+
